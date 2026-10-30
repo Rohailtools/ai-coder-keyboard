@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rohail.aicoderkeyboard">
+
+    <uses-permission android:name="com.termux.permission.RUN_COMMAND" />
+
     <application>
         <service
             android:name=".AiCoderKeyboardService"
